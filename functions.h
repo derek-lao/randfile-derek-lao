@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include <errno.h>
 #include <string.h>
-#include <fnctl.h>
+#include <fcntl.h>
 
-int * randomNumber();
+int * randomNumberPointer();
+int randomNumber();
